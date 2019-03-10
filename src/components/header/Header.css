@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    background-color: #2098D1;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+nav ul {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+nav li a {
+    padding: 34px 22px;
+    font-style: bold;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700px;
+    color: #fff
+}
+
+nav li a:hover {
+    background-color: #267fa8;
+}

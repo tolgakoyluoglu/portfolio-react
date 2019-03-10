@@ -1,0 +1,16 @@
+.projects {
+    width: 60%;
+    height: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.project-container {
+    background-color: #f4f4f4;
+}
+
+.project-card {
+    border: 2px solid #000;
+    margin: 10px;
+}
+
