@@ -6,21 +6,21 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
 h1 {
     color: white;
     margin-left: 20px;
-    font-size: 28px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 nav ul {
     color: #fff;
     list-style: none;
     display: flex;
-    font-size: 20px;
     text-transform: uppercase;
     padding: 10px;
     justify-content: space-around;
@@ -28,14 +28,14 @@ nav ul {
 
 
 nav li a {
-    padding: 34px 22px;
+    padding: 24px 12px;
     font-style: bold;
-    font-size: 14px;
     text-decoration: none;
     font-weight: 700px;
-    color: #fff
+    color: #fff;
+    transition: 0.3s;
 }
 
 nav li a:hover {
-    background-color: #267fa8;
+    background-color: #45bbf1;
 }

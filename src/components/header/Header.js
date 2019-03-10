@@ -6,11 +6,10 @@ export default class Header extends Component {
         return (
             <header>
                 <nav>
-                    <h1>Tolga Köyluoglu</h1>
                     <ul>
-                        <li><a href="/">Projects</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#section-project">Projects</a></li>
+                        <li><a href="#section-about">About</a></li>
                     </ul>
                 </nav>
             </header>

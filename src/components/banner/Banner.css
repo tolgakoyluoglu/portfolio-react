@@ -1,0 +1,12 @@
+.banner {
+background-color: #2098D1;
+height: 300px;
+}
+
+.banner-txt {
+    color: #fff;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 24px;
+    font-family: 'Handlee', cursive;
+}
