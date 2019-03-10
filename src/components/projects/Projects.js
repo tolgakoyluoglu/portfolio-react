@@ -17,7 +17,8 @@ export default class Projects extends Component {
 
                                 <form>
                                     <button formaction="http://recipe.tolgakoyluoglu.chas.academy">Go to site</button>
-                                    <button formaction="https://github.com/tolgakoyluoglu">Code</button>
+                                    <button formaction="https://github.com/chas-academy/06-recipe-app-frontend-tolgakoyluoglu">Code Frontend</button>
+                                    <button formaction="https://github.com/chas-academy/07-recipe-app-backend-tolgakoyluoglu">Code Backend</button>
                                 </form>
                             </div>
                         </div>
@@ -30,7 +31,7 @@ export default class Projects extends Component {
                                 <p>Website that show's weather based on users location, users can also search for a city to see the current weather, 8 day forecast aswell as every third hour for the next 24h. Created with React.</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u08">Go to site</button>
-                                    <button formaction="https://github.com/tolgakoyluoglu">Code</button>
+                                    <button formaction="https://github.com/chas-academy/08-weather-app-tolgakoyluoglu">Code</button>
                                 </form>
                             </div>
                         </div>
@@ -43,7 +44,6 @@ export default class Projects extends Component {
                                 <p>Website created with HTML/CSS</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
-                                    <button formaction="https://github.com/tolgakoyluoglu">Code</button>
                                 </form>
                             </div>
                         </div>
@@ -56,7 +56,6 @@ export default class Projects extends Component {
                                 <p>Hangman with Vanilla JS, HTML, CSS</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
-                                    <button formaction="https://github.com/tolgakoyluoglu">Code</button>
                                 </form>
                             </div>
                         </div>
@@ -69,7 +68,18 @@ export default class Projects extends Component {
                                 <p>Photo search website. Working with two API's on this site. Created with JavaScript, HTML, CSS</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u03">Go to site</button>
-                                    <button formaction="https://github.com/tolgakoyluoglu">Code</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div className="project-card">
+                            <div className="project-image">
+                                <img src="\assets\trello.png" alt="trello"></img>
+                            </div>
+                            <div className="project-text">
+                                <h4>Trello Clone</h4>
+                                <p>jQuery,HTML, CSS</p>
+                                <form>
+                                    <button formaction="http://tolgakoyluoglu.chas.academy/u05">Go to site</button>
                                 </form>
                             </div>
                         </div>
