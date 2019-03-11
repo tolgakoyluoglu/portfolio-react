@@ -29,12 +29,16 @@
 .project-image img {
     border-radius: 0%;
     width: 90%;
+    transition: 0.5s ease
 }
 
 .project-image img:hover {
-    opacity: .5;
-    transition: 0.3s;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 0.5s ease;
 }
+
 
 button {
     padding: 7px;
