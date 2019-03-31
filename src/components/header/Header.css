@@ -1,41 +1,9 @@
 header {
-    display: flex;
     background-color: #2098D1;
     height: 90px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 
-h1 {
-    color: white;
-    margin-left: 20px;
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-nav ul {
-    color: #fff;
-    list-style: none;
-    display: flex;
-    text-transform: uppercase;
-    padding: 10px;
-    justify-content: space-around;
-}
-
-
-nav li a {
-    padding: 24px 12px;
-    font-style: bold;
-    text-decoration: none;
-    font-weight: 700px;
-    color: #fff;
-    transition: 0.3s;
-}
-
-nav li a:hover {
-    background-color: #45bbf1;
-}

@@ -6,19 +6,34 @@ export default class Projects extends Component {
         return (
             <section id="section-project">
                 <div className="project-container">
+                    <h2># Recent Projects</h2>
                     <div className="projects">
+                        <div className="project-card">
+                            <div className="project-image">
+                                <img src="\assets\imdb.png" alt="imdb"></img>
+                            </div>
+                            <div className="project-text">
+                                <h4>IMDb Clone Front/Back-end</h4>
+                                <p>React / Node.js</p>
+                                <p>MVC structure in Express. Auth with JWT. Crud implementation for watchlist and reviews. Fetch to external API from backend for the movies</p>
+                                <form>
+                                    <button formaction="/">Coming soon</button>
+
+                                </form>
+                            </div>
+                        </div>
                         <div className="project-card">
                             <div className="project-image">
                                 <img src="\assets\recipe.png" alt="recipe"></img>
                             </div>
                             <div className="project-text">
                                 <h4>Recipe App Front/Back-end</h4>
-                                <p>A website created with Angular and Laravel. The user can search for recipes and register a account on the website. The backend is managed by my own API, the recipes are from edamam.com</p>
+                                <p>Angular / Laravel</p>
+                                <p>Auth with JWT. Crud implementation for recipes. Fetch to external API from frontend for the recipes</p>
 
                                 <form>
                                     <button formaction="http://recipe.tolgakoyluoglu.chas.academy">Go to site</button>
-                                    <button formaction="https://github.com/chas-academy/06-recipe-app-frontend-tolgakoyluoglu">Code Frontend</button>
-                                    <button formaction="https://github.com/chas-academy/07-recipe-app-backend-tolgakoyluoglu">Code Backend</button>
+
                                 </form>
                             </div>
                         </div>
@@ -28,34 +43,11 @@ export default class Projects extends Component {
                             </div>
                             <div className="project-text">
                                 <h4>Weather App</h4>
-                                <p>Website that show's weather based on users location, users can also search for a city to see the current weather, 8 day forecast aswell as every third hour for the next 24h. Created with React.</p>
+                                <p>Fetch to external API for displaying currently, weekly and daily forecast</p>
+                                <p>React</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u08">Go to site</button>
-                                    <button formaction="https://github.com/chas-academy/08-weather-app-tolgakoyluoglu">Code</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-image">
-                                <img src="\assets\static.png" alt="static"></img>
-                            </div>
-                            <div className="project-text">
-                                <h4>Static Website</h4>
-                                <p>Website created with HTML/CSS</p>
-                                <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-image">
-                                <img src="\assets\hangman.png" alt="hangman"></img>
-                            </div>
-                            <div className="project-text">
-                                <h4>Hangman</h4>
-                                <p>Hangman with Vanilla JS, HTML, CSS</p>
-                                <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
+
                                 </form>
                             </div>
                         </div>
@@ -65,7 +57,8 @@ export default class Projects extends Component {
                             </div>
                             <div className="project-text">
                                 <h4>Api Mashup</h4>
-                                <p>Photo search website. Working with two API's on this site. Created with JavaScript, HTML, CSS</p>
+                                <p>JavaScript / HTML / CSS</p>
+                                <p>Fetch to external API's for images and related words</p>
                                 <form>
                                     <button formaction="http://tolgakoyluoglu.chas.academy/u03">Go to site</button>
                                 </form>
@@ -73,13 +66,25 @@ export default class Projects extends Component {
                         </div>
                         <div className="project-card">
                             <div className="project-image">
-                                <img src="\assets\trello.png" alt="trello"></img>
+                                <img src="\assets\hangman.png" alt="hangman"></img>
                             </div>
                             <div className="project-text">
-                                <h4>Trello Clone</h4>
-                                <p>jQuery,HTML, CSS</p>
+                                <h4>Hangman</h4>
+                                <p>JavaScript / HTML / CSS</p>
                                 <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u05">Go to site</button>
+                                    <button formaction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div className="project-card">
+                            <div className="project-image">
+                                <img src="\assets\static.png" alt="static"></img>
+                            </div>
+                            <div className="project-text">
+                                <h4>Static Website</h4>
+                                <p>HTML / CSS</p>
+                                <form>
+                                    <button formaction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
                                 </form>
                             </div>
                         </div>
