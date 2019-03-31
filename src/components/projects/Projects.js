@@ -46,7 +46,7 @@ export default class Projects extends Component {
                                 <p>Fetch to external API for displaying currently, weekly and daily forecast</p>
                                 <p>React</p>
                                 <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u08">Go to site</button>
+                                    <button formaction="https://tolgakoyluoglu.github.io/weather-app/">Go to site</button>
 
                                 </form>
                             </div>
