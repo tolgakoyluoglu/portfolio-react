@@ -40,7 +40,10 @@
     padding-top: 30px;
 }
 
-
+.project-text a {
+    color: #636262;
+    text-decoration: none;
+}
 button {
     padding: 7px;
     margin: 10px;

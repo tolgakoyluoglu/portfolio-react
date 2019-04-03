@@ -15,9 +15,12 @@ export default class Projects extends Component {
                             <div className="project-text">
                                 <h4>IMDb Clone Front/Back-end</h4>
                                 <p>React / Node.js</p>
-                                <p>MVC structure in Express. Auth with JWT. Crud implementation for watchlist and reviews. Fetch to external API from backend for the movies</p>
+                                <p>MVC structure in Express. Auth with JWT. CRUD implementation for watchlist. Fetch to external API from backend for the movies</p>
+                                <a href="https://github.com/tolgakoyluoglu/imdb-clone-frontend">Github Frontend</a>
+                                <br />
+                                <a href="https://github.com/tolgakoyluoglu/imdb-clone-backend">Github Backend</a>
                                 <form>
-                                    <button formaction="/">Coming soon</button>
+                                    <button formAction="http://tolgakoyluoglu.chas.academy/tmdb">Go to site</button>
 
                                 </form>
                             </div>
@@ -30,9 +33,11 @@ export default class Projects extends Component {
                                 <h4>Recipe App Front/Back-end</h4>
                                 <p>Angular / Laravel</p>
                                 <p>Auth with JWT. Crud implementation for recipes. Fetch to external API from frontend for the recipes</p>
-
+                                <a href="https://github.com/tolgakoyluoglu/imdb-clone-frontend">Github Frontend</a>
+                                <br />
+                                <a href="https://github.com/tolgakoyluoglu/imdb-clone-backend">Github Backend</a>
                                 <form>
-                                    <button formaction="http://recipe.tolgakoyluoglu.chas.academy">Go to site</button>
+                                    <button formAction="http://recipe.tolgakoyluoglu.chas.academy">Go to site</button>
 
                                 </form>
                             </div>
@@ -45,8 +50,9 @@ export default class Projects extends Component {
                                 <h4>Weather App</h4>
                                 <p>Fetch to external API for displaying currently, weekly and daily forecast</p>
                                 <p>React</p>
+                                <a href="https://github.com/tolgakoyluoglu/08-weather-app-tolgakoyluoglu">Github</a>
                                 <form>
-                                    <button formaction="https://tolgakoyluoglu.github.io/weather-app/">Go to site</button>
+                                    <button formAction="https://tolgakoyluoglu.github.io/weather-app/">Go to site</button>
 
                                 </form>
                             </div>
@@ -60,7 +66,7 @@ export default class Projects extends Component {
                                 <p>JavaScript / HTML / CSS</p>
                                 <p>Fetch to external API's for images and related words</p>
                                 <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u03">Go to site</button>
+                                    <button formAction="http://tolgakoyluoglu.chas.academy/u03">Go to site</button>
                                 </form>
                             </div>
                         </div>
@@ -72,7 +78,7 @@ export default class Projects extends Component {
                                 <h4>Hangman</h4>
                                 <p>JavaScript / HTML / CSS</p>
                                 <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
+                                    <button formAction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
                                 </form>
                             </div>
                         </div>
@@ -84,7 +90,7 @@ export default class Projects extends Component {
                                 <h4>Static Website</h4>
                                 <p>HTML / CSS</p>
                                 <form>
-                                    <button formaction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
+                                    <button formAction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
                                 </form>
                             </div>
                         </div>
