@@ -8,12 +8,29 @@ export default class Projects extends Component {
                 <div className="project-container">
                     <h2># Recent Projects</h2>
                     <div className="projects">
+                    <div className="project-card">
+                            <div className="project-image">
+                                <img src="\assets\lio.png" alt="imdb"></img>
+                            </div>
+                            <div className="project-text">
+                                <h4>Lio Front/Backend</h4>
+                                <p>React / Node.js / Redux</p>
+                                <p>Most recent project made by me and a classmate. The application is built with MERN stack.</p>
+                                <a href="https://github.com/tolgakoyluoglu/lio-frontend">Github Frontend</a>
+                                <br />
+                                <a href="https://github.com/tolgakoyluoglu/lio-backend">Github Backend</a>
+                                <form>
+                                    <button formAction="https://app-lio.herokuapp.com/">Go to site</button>
+
+                                </form>
+                            </div>
+                        </div>
                         <div className="project-card">
                             <div className="project-image">
                                 <img src="\assets\imdb.png" alt="imdb"></img>
                             </div>
                             <div className="project-text">
-                                <h4>IMDb Clone Front/Back-end</h4>
+                                <h4>IMDB Clone Front/Backend</h4>
                                 <p>React / Node.js</p>
                                 <p>MVC structure in Express. Auth with JWT. CRUD implementation for watchlist. Fetch to external API from backend for the movies</p>
                                 <a href="https://github.com/tolgakoyluoglu/imdb-clone-frontend">Github Frontend</a>
@@ -30,7 +47,7 @@ export default class Projects extends Component {
                                 <img src="\assets\recipe.png" alt="recipe"></img>
                             </div>
                             <div className="project-text">
-                                <h4>Recipe App Front/Back-end</h4>
+                                <h4>Recipe App Front/Backend</h4>
                                 <p>Angular / Laravel</p>
                                 <p>Auth with JWT. Crud implementation for recipes. Fetch to external API from frontend for the recipes</p>
                                 <a href="https://github.com/tolgakoyluoglu/imdb-clone-frontend">Github Frontend</a>
@@ -54,43 +71,6 @@ export default class Projects extends Component {
                                 <form>
                                     <button formAction="https://tolgakoyluoglu.github.io/weather-app/">Go to site</button>
 
-                                </form>
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-image">
-                                <img src="\assets\mashup.png" alt="mashup"></img>
-                            </div>
-                            <div className="project-text">
-                                <h4>Api Mashup</h4>
-                                <p>JavaScript / HTML / CSS</p>
-                                <p>Fetch to external API's for images and related words</p>
-                                <form>
-                                    <button formAction="http://tolgakoyluoglu.chas.academy/u03">Go to site</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-image">
-                                <img src="\assets\hangman.png" alt="hangman"></img>
-                            </div>
-                            <div className="project-text">
-                                <h4>Hangman</h4>
-                                <p>JavaScript / HTML / CSS</p>
-                                <form>
-                                    <button formAction="http://tolgakoyluoglu.chas.academy/u02">Go to site</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-image">
-                                <img src="\assets\static.png" alt="static"></img>
-                            </div>
-                            <div className="project-text">
-                                <h4>Static Website</h4>
-                                <p>HTML / CSS</p>
-                                <form>
-                                    <button formAction="http://tolgakoyluoglu.chas.academy/u01">Go to site</button>
                                 </form>
                             </div>
                         </div>
